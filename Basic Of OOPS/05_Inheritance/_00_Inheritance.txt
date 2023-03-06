@@ -1,0 +1,30 @@
+-> Inheritance is an important pillar of OOP(Object-Oriented Programming)
+-> It is the mechanism in java by which one class is allowed to inherit the
+   features(fields and methods) of another class.
+-> In OOPS, Inheritance means creating new classes based on existing ones.
+
+
+--------------------------------------------------------------------------------
+When we construct a new class from existing class in such a way that the new
+class access all the features & properties of existing class called inheritance.
+--------------------------------------------------------------------------------
+
+Super Class/Parent Class: The class whose features are inherited is known as a 
+                          superclass(or a base class or a parent class).
+
+Sub Class/Child Class: The class that inherits the other class is known as a 
+                       subclass(or a derived class, extended class, or child class).
+                       The subclass can add its own fields and methods in addition to
+                       the superclass fields and methods.
+
+
+
+The extends keyword is used for inheritance in java. Using the extends keyword indicates you
+are derived from an existing class. In other words, “extends” refers to increased functionality.
+
+
+. It provide code reusability.
+. We can not access private members of class through inheritance.
+. A subclass contains all the features of super class so, we should
+    create the object of sub class.
+. Method Overriding only possible through inheritance.
